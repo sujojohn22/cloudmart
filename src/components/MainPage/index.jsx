@@ -90,13 +90,13 @@ const CloudMartMainPage = () => {
       <Header />
       <main className="container mx-auto py-8 flex-grow px-4">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">Featured Products</h2>
+          <h2 className="text-2xl font-bold">Feature Product on ClouMart</h2>
           <div className="relative">
             <input
               type="text"
               placeholder="Search products..."
               className="pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              value={searchTerm}
+             value={searchTerm}
               onChange={handleSearch}
             />
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
